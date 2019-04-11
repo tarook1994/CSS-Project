@@ -8,11 +8,13 @@ body {
 }
 
 #product-overview {
-    background: url("freedom.jpg");
-    width: 100%;
+    background-image: url("freedom.jpg");
+    background-size:  cover;
+    background-repeat: no-repeat;
     height: 528px;
     padding: 10px;   
     margin-top: 16px;
+    position: relative;
 }
 
 .section-title {
@@ -23,6 +25,9 @@ body {
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
 }
 
 .plan {
